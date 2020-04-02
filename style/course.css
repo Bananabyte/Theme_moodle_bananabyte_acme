@@ -1,0 +1,203 @@
+.coursebox {
+	border: 1px solid #F2A637;
+	float: left;
+	width: 98%;
+	margin: 5px 1% 15px 0px;
+	
+	
+}
+.coursebox .info {
+	background: #F2A637;
+	display: block;
+	float: left;
+	position: relative;
+	width: 98%;
+	padding: 2px 1%;	
+
+	
+}
+.coursebox .info .name,
+.coursebox .info .teachers {
+	margin: 5px 0px;
+	text-transform: uppercase;
+	
+}
+.coursebox .info .teachers {
+	font-size: 0.70em;
+	font-weight: 600;
+}
+
+.coursebox .info .name a{
+	color: #f9f9f9;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, verdana, helvetica, sans-serif;
+	padding: 0px;
+}
+
+.coursebox .info .teachers a{
+	color:#454545;
+}
+
+.coursebox .summary{
+	display: block;
+	float: left;
+	position: relative;
+	width: 98%;
+	padding: 5px 1%;
+}
+
+
+
+
+
+/* CATEGORY LIST */
+
+.categorybox{
+	/* border-top: 1px solid #e7e7e7; */
+	width: 98%;
+}
+
+.categorybox .categorylist{
+	background:  #6c6c6c;
+	padding: 6px 0px;
+	margin: 3px 0px;
+	border: 1px solid #454545;
+	border-left: 7px solid #454545;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-size: 1.0em;
+}
+
+.categorybox .categorylist .category {
+	padding: 4px 4px;
+}
+.categorybox .categorylist .category a{
+	color: #f9f9f9;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, verdana, helvetica, sans-serif;
+	font-weight: 400;
+	
+}
+
+
+.categorybox .categorylist .category .indentation{
+	
+	padding-left: 3%;
+	width: 96%;
+	font-size: 90%;
+	margin-bottom: 5px;
+}
+.categorybox .categorylist .category .indentation a {
+	/* text-transform: none; */
+
+}
+
+.categorybox .categorylist .category .numberofcourse,
+.categorybox .categorylist .category .indentation .numberofcourse{
+	
+	font-size: 16px;
+	float: right;
+	color: #454545;
+}
+.categorybox .categorylist .category .indentation .numberofcourse{
+	color: #454545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3.sectionname {	
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+#page-course-view #region-main {
+	background: #9E9E9E;
+}
+
+
+.forumpost {
+	border: none;
+}
+.forumpost a{
+	color: #F2A637;
+}
+
+.forumpost .subject,
+.forumpost .author{
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;	
+}
+.forumpost .subject{
+	font-size: 1.4em;
+	
+}
+
+.forumpost .author {
+	font-size: 0.7em;
+	color: #e0e0e0;
+}
+
+.forumpost .topic
+ {
+	background: #6c6c6c;
+	padding: 8px 5px;
+}
+th,
+.forumheaderlist th {
+	background: #858585 url([[pix:theme|bar]]) repeat-x 0 50%;
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.forumheaderlist .discussion {
+	background: #f0f0f0;
+}
+.glossarycategoryheader {
+	width: 100%;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.glossarycategoryheader h2{
+	margin: 15px;
+	}
+	
+.entrybox a{
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+
+.course_category_tree .category {
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 2px;
+}

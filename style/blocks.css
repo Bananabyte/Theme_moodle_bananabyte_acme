@@ -1,0 +1,246 @@
+.block {
+	border:0px solid;
+	margin: 10px 0px;
+	padding: 0px;
+}
+
+.block a{
+	color: #f9f9f9;
+}
+
+.block a:hover{
+	color: #F2A637;
+}
+
+
+.block .header {
+		/* border-bottom: 1px dotted #F2A637; */
+	/* border-left: 5px solid #E77817; */
+}
+
+
+.block .header h2 {
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	margin:4px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+/* BLOCK COURSE LIST */
+.block.block_activity_modules .content,
+.block.block_site_main_menu .content,
+.block.block_course_list .content,
+.block.block_cathegory_list .content {
+
+}
+.block.block_activity_modules .content ul,
+.block.block_site_main_menu .content ul,
+.block.block_course_list .content ul,
+.block.block_cathegory_list .content ul{
+	border-top: 1px dotted #d0d0d0;
+
+
+}
+.block.block_activity_modules .content ul li,
+.block.block_site_main_menu .content ul li,
+.block.block_course_list .content ul li,
+.block.block_cathegory_list .content ul li {
+	background: transparent url([[pix:theme|20pc]]) repeat top left;
+	padding: 12px 15px 12px 2px;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 1px dotted #d0d0d0;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	
+}
+
+.block.block_activity_modules .content a,
+.block.block_site_main_menu .content a,
+.block.block_course_list .content a,
+.block.block_cathegory_list .content a{
+	color: #f9f9f9;
+}
+
+.block.block_activity_modules .content a:hover,
+.block.block_site_main_menu .content a:hover,
+.block.block_course_list .content a:hover,
+.block.block_cathegory_list .content a:hover{
+	color: #F2A637;
+}
+
+
+.block.block_activity_modules .content ul li:hover,
+.block.block_site_main_menu .content ul li:hover,
+.block.block_course_list .content ul li:hover,
+.block.block_cathegory_list .content ul li:hover {
+	background: #656565;
+	
+}
+
+
+
+.block.block_activity_modules .content ul li img.icon,
+.block.block_site_main_menu .content ul li  img.icon,
+.block.block_course_list .content ul li  img.icon,
+.block.block_cathegory_list .content ul li  img.icon {
+	width: 26px;
+	height: 26px;
+	display: none;
+	
+} 
+
+.block.block_course_list .footer a,
+.block.block_cathegory_list .footer a{
+	cursor: pointer;
+	font-size:0.8em;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	
+	
+}
+
+
+
+/* RSS BLOCK */
+.block.block_rss_client .content ul li {
+	margin: 15px 0px;
+}
+.block.block_rss_client .content .link {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	margin-bottom: 5px;
+
+}
+ /* NEWS ITENS BLOCK */
+.block.block_news_items .content .date {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin: 12px 0px 2px 0px;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	color: #F2A637;
+ 
+} 
+ 
+.block.block_news_items .content .name {
+	text-transform: uppercase;
+	font-size: 0.85em;
+	letter-spacing: 1px;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+		color: #e0e0e0;
+} 
+
+.block.block_news_items .content .info  a {
+	color: #F2A637;
+}
+
+/* LOGIN BLOCK */
+.block.block_login .content label {
+	display: block;
+	font-size:0.8em;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 2px 0px;
+}
+.block.block_login  .footer {
+	border-top: 1px dotted #f9f9f9;
+	font-size:0.8em;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	padding: 5px 0px;
+}
+
+/* CALENDAR BLOCK */
+
+.block .minicalendar th {
+	background: #F2A637;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 6px 0px;
+	
+}
+
+.block .minicalendar td.day {
+	background:#858585;
+		font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	padding: 6px 0px;
+}
+
+.block .minicalendar td.weekend {
+	color: #F2A637;
+	background:#7A7979;
+}
+.block .calendar-controls .current {
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;	
+}
+/* CALENDAR UPCOMING BLOCK */
+
+.block.block_calendar_upcoming .content .event{
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;	
+}
+.block.block_calendar_upcoming .content .event .date {
+	font-size: 0.65em;
+	color: #F2A637;
+}
+.block.block_calendar_upcoming .content .event .date a{
+	color: #F2A637;
+}
+
+.block.block_calendar_upcoming .footer {
+	border-top: 1px dotted #f9f9f9;
+	font-size:0.8em;
+	text-transform: uppercase;
+	font-family: 'Oswald', calibri, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	padding: 5px 0px;
+}
+
+/* RECENT ACTIVITY BLOCK */
+.block.block_recent_activity .content {
+	
+}
+
+.block.block_recent_activity .activitydate {
+	text-align: left;
+	font-family: 'Oswald', calibri, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #F2A637;
+}
+.block.block_recent_activity .activityhead{
+	text-align: left;
+}
+.block.block_comments .comment-content {
+	font-size: 1.3em;
+}
+
+.block.block_progress .header{
+	text-align: left;
+}
