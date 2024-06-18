@@ -27,3 +27,5 @@ $string['pluginname'] = 'Acme banana';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
 $string['choosereadme'] = 'Acme by BananaByte.More commercial themes at demo.bananabyte.com.br';
+$string['heroimg'] = 'Imagem do cabeçalho';
+$string['heroimgdesc'] = 'Imagem do cabeçalho de preferencia 2048px x 350px';
