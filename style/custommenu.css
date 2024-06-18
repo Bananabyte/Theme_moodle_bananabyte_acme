@@ -2,8 +2,8 @@
  * Custom menu
  */
 #custommenu{
-	background:#454545 /* url([[pix:theme|bar]]) repeat-x 0 50% */;
-	height: 30px;
+	background: var(--sat-085); /* url([[pix:theme|bar]]) repeat-x 0 50% */
+	height: 40px;
 	margin: 0px 0px;
 	padding: 0px;
 	text-decoration: none;
@@ -35,44 +35,44 @@
 #custommenu li.yui3-menuitem a,
 .yui3-skin-sam .yui3-menu-horizontal li a{
 	padding: 0px 15px;
-	color: #f9f9f9;
+	color:   var(--sat-005);
 	background: none;
 	cursor: pointer;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
 	font-family: 'Oswald', calibri, verdana, tahoma, sans-serif;
-	border: 0px solid #F9F9F9;
+	border: 0px solid   var(--sat-005);
 }
 
 #custommenu li.yui3-menuitem a:hover,
 .yui3-skin-sam .yui3-menu-horizontal li:hover,
 .yui3-skin-sam .yui3-menu-horizontal li a:hover{
-	color: #F9F9F9;
-	background: #E77817;
+	color:   var(--sat-005);
+	background: var(--brand);
 	color: #454545;
-	border: 0px solid #F9F9F9;
-	height: 30px;
+	border: 0px solid var(--sat-005);
+	height: 40px;
 	
 }
 
 .yui3-skin-sam .yui3-menu .yui3-menu  {
-	border: 1px solid #454545;
-	background: #a0a0a0;
+	border: 1px solid var(--sat-065);
+	background: var(--sat-040);
 	margin: 0px;
 	padding: 0px;
 }
 .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content,
 .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content:hover  {
 	
-	line-height: 1.5;
-	margin: 10px 0px;
+	line-height: 3.20em;
+	margin: 0px 0px;
 	padding: 0px;
 }
 
 #custommenu .yui3-menuitem-content:hover{
 	background: none;
-	border: 0px solid #F9F9F9;
+	border: 0px solid   var(--sat-005);
 }
 
 #custommenu .yui3-menu .yui3-menu {z-index:500;}
@@ -89,3 +89,11 @@
 #custommenu .yui3-menu-horizontal.javascript-disabled>.yui3-menu-content>ul:after {content:"";display:block;clear:both;line-height:0;font-size:0;visibility:hidden;}
 #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content {font-size:93%;line-height:2;padding:0;}
 #custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content .yui3-menu-content {font-size:100%;}
+
+
+
+#custommenu .yui3-menu-label, #custommenu .yui3-menu .yui3-menu .yui3-menu-label {
+    background-image: none !important;
+    padding-right: 20px;
+}
+

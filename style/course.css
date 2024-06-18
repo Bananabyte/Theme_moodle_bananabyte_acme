@@ -1,21 +1,73 @@
-.coursebox {
-	border: 1px solid #F2A637;
-	float: left;
-	width: 98%;
-	margin: 5px 1% 15px 0px;
-	
-	
+#frontpage-course-list {
+	h2{
+		padding: 2rem 0rem 0rem 0rem;
+	}
 }
+
+.frontpage-course-list-all {
+
+	margin: 10px auto;
+	max-width: 930px;
+	/* display: flex; */
+	justify-content: center;
+}
+
+
+.coursebox {
+	border: 1px solid var(--brand);
+	background-color:  var(--sat-035);
+	float: left;
+/* 	width: 98%;
+	margin: 5px 1% 15px 0px; */
+	min-width: 280px;
+	width: 290px;
+	max-width: 31%;
+	margin: 5px 1% 15px 1%;
+	display: inline-block;
+	padding: 0px 0px;
+	
+
+}
+
+.coursebox .info .coursename a{
+	color:#FFFFFF;
+	font-family: 'Oswald', calibri, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+	font-size: 1em;
+}
+.coursebox > .info > .coursename {
+	width: 98%;
+}
+.coursebox > .info > .coursename a {
+	background-position: left center;
+	background-image: none;
+	padding-left: 0px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: keep-all;
+	height: 2.4em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+
 .coursebox .info {
-	background: #F2A637;
+	background: var(--brand);
 	display: block;
 	float: left;
 	position: relative;
 	width: 98%;
-	padding: 2px 1%;	
-
-	
+	padding: 2px 2% 0px 0%;	
 }
+
+
+
+
 .coursebox .info .name,
 .coursebox .info .teachers {
 	margin: 5px 0px;
@@ -28,7 +80,7 @@
 }
 
 .coursebox .info .name a{
-	color: #f9f9f9;
+	color:   var(--sat-005);
 	text-transform: uppercase;
 	font-family: 'Oswald', calibri, verdana, helvetica, sans-serif;
 	padding: 0px;
@@ -38,13 +90,253 @@
 	color:#454545;
 }
 
-.coursebox .summary{
+.coursebox .content .summary{
 	display: block;
 	float: left;
 	position: relative;
 	width: 98%;
-	padding: 5px 1%;
+	padding: 5px 0px 0px 0px;
+
 }
+.coursebox .content .summary .no-overflow{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  word-break: keep-all;
+  height: 6em;
+  line-height: 1.2em;
+  margin: 0.5em 0.35em 1em 0.35em;
+}
+
+
+.coursebox .content .courseimage{
+	position: relative;
+	float: left;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;	
+}
+
+.coursebox .content .courseimage img{
+	min-width: 290px;
+	min-height: 220px;
+	max-width: 100%;
+	padding: 0px;
+	margin-bottom: -5px;
+	object-fit: cover:
+}
+
+/* FRONTPAGE CATEGORY LIST */
+
+
+#frontpage-category-names {
+	
+	h2{
+		padding: 2rem 0rem 0rem 0rem;
+	}
+	
+	.collapsible-actions {
+		border-bottom: 1px dotted   var(--sat-005);
+		font-weight: 500;
+		letter-spacing: 1px;
+		a{text-transform: uppercase; font-size: 0.55em; color:   var(--sat-005);}
+		a:hover{color: var(--brand);}
+	}
+	
+	.content {
+		padding: 0rem;
+		
+		.category {
+			background-color: #6C6C6C;
+			:hover{background-color: #545454;}
+		
+			.info{			
+				border-bottom: 1px dotted   var(--sat-005);
+				padding: 0.5rem;
+				margin: 0rem;	
+				
+				.categoryname {
+					padding: 0.25rem 0.2rem 0.25rem 1.6rem;
+					font-family: 'Oswald', calibri, sans-serif;		
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					font-weight: 400;				
+				}
+				.numberofcourse {position:relative; float: right;text-align:right;}
+
+			}
+			.content .category {
+				background-color: #858585;
+				:hover{background-color:  var(--sat-035);}
+			}
+		}
+	}
+	
+}
+
+
+/* FRONTPAGE CATEGORY COMBO */	
+
+#frontpage-category-combo{
+	h2{
+		padding: 2rem 0rem 0rem 0rem;
+	}
+	
+	.collapsible-actions {
+		border-bottom: 1px dotted   var(--sat-005);
+		font-weight: 500;
+		letter-spacing: 1px;
+		a{text-transform: uppercase; font-size: 0.55em; color:   var(--sat-005);}
+		a:hover{color: var(--brand);}
+	}
+	
+	.content {
+			padding: 0rem;
+			
+			.category {
+				background-color: #6C6C6C;
+							
+				.info{			
+					border-bottom: 1px dotted   var(--sat-005);
+					padding: 0.5rem;
+					margin: 0rem;	
+					
+					.categoryname {
+						padding: 0.25rem 0.2rem 0.25rem 1.6rem;
+						font-family: 'Oswald', calibri, sans-serif;		
+						letter-spacing: 1px;
+						text-transform: uppercase;
+						font-weight: 400;				
+					}
+					.numberofcourse {position:relative; float: right;text-align:right;}
+
+				}
+				.content .category {
+					background-color: #858585;
+					
+				}
+				
+				
+			}
+			.courses{					
+			
+				.coursebox.loaded{
+						border-bottom: 1px dotted   var(--sat-005);	
+						min-width: 320px;
+						
+					}
+				.coursebox{
+					
+					border: 0px solid var(--brand);
+					
+					padding: 0rem;
+					margin: 0rem;
+					clear: both;
+					width: 100%!important;
+					min-width: 100%!important;
+					max-width: 100%!important;	
+					
+
+					
+					.info{
+						display:inline;
+						background-color:  var(--sat-035)!important;
+						
+						
+						
+						
+						.coursename {
+							width: 90%;
+							font-size: 0.95em;
+							line-height: 1.1em;					
+							padding: 0em;
+							margin: 0em;
+							a{
+								text-align: left; 
+								padding: 0.1em 0em 0em 0em; 
+								margin: 0em 0em 0em 2em;
+								height: 1.2rem;
+								
+							}
+							a:hover{background-color:  var(--sat-035)!important;color: var(--brand);}
+							
+						}
+						.moreinfo{
+							width: 2%;
+							min-width: 2rem;
+							padding: 0em 0em 0em 0em;
+							margin: 0em;
+							position: relative;
+							float: right;
+							
+						}
+						
+						
+						
+					}
+					
+					.content {
+						display:inline;
+						background-color:  var(--sat-035)!important;
+						:hover{background-color:  var(--sat-035)!important;}
+						.summary:hover{background-color:  var(--sat-035)!important;}
+						.summary {
+							width: 60%;
+							min-width: 300px;
+							position:relative;
+							float: right;
+						.no-overflow{background-color:  var(--sat-035)!important;}
+						
+
+						}
+						.courseimage {
+							background-color:  var(--sat-035)!important;
+							position:relative;
+							float: left;
+							width: 40%;
+							max-width: 300px;
+						}
+					
+						
+						
+					}
+					
+				}
+			
+			}
+			
+		}	
+	
+}
+
+
+
+
+/* CATEGORY ICONS */
+
+.course_category_tree { 
+
+	.category >.info > .categoryname {
+		background-image: url([[pix:theme|icons8-menu-vertical-32]]);
+		
+	}
+
+	.category.with_children.collapsed >.info > .categoryname {
+		background-image: url([[pix:theme|icons8-menu-vertical-32fill]]);
+		
+	}
+
+	.category.with_children >.info > .categoryname {
+		background-image: url([[pix:theme|icons8-menu-vertical-32]]);
+
+	}
+
+}
+
+
+
 
 
 
@@ -74,7 +366,7 @@
 	padding: 4px 4px;
 }
 .categorybox .categorylist .category a{
-	color: #f9f9f9;
+	color:   var(--sat-005);
 	text-transform: uppercase;
 	font-family: 'Oswald', calibri, verdana, helvetica, sans-serif;
 	font-weight: 400;
@@ -133,46 +425,106 @@ h3.sectionname {
 }
 
 
-.forumpost {
-	border: none;
-}
-.forumpost a{
-	color: #F2A637;
-}
-
-.forumpost .subject,
-.forumpost .author{
-	font-family: 'Oswald', calibri, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;	
-}
-.forumpost .subject{
-	font-size: 1.4em;
+#site-news-forum{
+	.subscribelink{
+		border-bottom: 1px dotted   var(--sat-005);
+		padding-bottom: 0.25em;
+		font-weight: 500;
+		letter-spacing: 1px;
+		a{text-transform: uppercase; font-size: 0.55em; color: var(--sat-005);}
+		a:hover{color: var(--brand);}	
+	}
 	
 }
 
-.forumpost .author {
-	font-size: 0.7em;
-	color: #e0e0e0;
+.forumpost{
+	border: none;
+	a{color: var(--brand);}
+	
+	.picture{
+		padding: 0.25em 0.15em;
+		img{width: 2.25em; height: 2.25em;}
+	}
+	.header {
+		background: var(--sat-065);
+	}
+	.topic {
+		font-family: 'Oswald', calibri, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 400;
+		background: var(--sat-065);
+		padding: 0.25em ;
+		margin-left: 2.75em!important;
+		
+		.subject{font-size: 1.4em;}
+		.author {font-size: 0.7em; color: var(--sat-015);}
+	}
+	.maincontent{
+		border-bottom: 1px dotted var(--sat-005);
+		.content{
+			color: var(--sat-005);	
+			
+			.fullpost{padding: 1em 0.25em 1em 0.25em!important;}		
+		}
+	}
+	.options{		
+		font-family: 'Oswald', calibri, sans-serif;
+		font-size: 0.75em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding-top:0.25em;
+		
+		a{font-weight: 500;}
+		a:hover {color: var(--sat-005);}
+		
+		.commands{}
+		.link {}
+	}
+	
 }
 
-.forumpost .topic
- {
-	background: #6c6c6c;
-	padding: 8px 5px;
+
+table,
+table.forumheaderlist {
+	
+	tr{
+			border-width: 1px 0px!important;
+			border-color: var(--sat-050)!important;
+			border-style:dotted!important;
+		
+	}
+	
+	tr th{
+			background-color: var(--sat-095);
+			background-image: url([[pix:theme|bar]]);
+			background-repeat: repeat-x;
+			background-position: 0 50%;
+			font-family: 'Oswald', calibri, sans-serif;
+			font-weight: 500;
+			color: var(--sat-010);
+			text-transform: uppercase;
+			letter-spacing: 1px;
+	}
+	tr td{		
+			background-color: var(--sat-065)!important;	
+			color:  var(--sat-005);	
+			border-width: 1px 0px!important;
+			border-color: var(--sat-050)!important;
+			border-style:dotted!important;
+			text-transform: uppercase;
+			font-weight: 400;
+	}
+	
+
+	
 }
-th,
-.forumheaderlist th {
-	background: #858585 url([[pix:theme|bar]]) repeat-x 0 50%;
-	font-family: 'Oswald', calibri, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-}
-.forumheaderlist .discussion {
-	background: #f0f0f0;
-}
+
+
+
+	
+
+
 .glossarycategoryheader {
 	width: 100%;
 	-webkit-border-top-left-radius: 4px;
@@ -194,10 +546,46 @@ th,
 }
 
 
-.course_category_tree .category {
-	font-family: 'Oswald', calibri, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	margin: 2px;
+/* COURSE AMBIENT */
+
+.path-course-view {
+
+	
+	#page-content {
+		
+		
+		#region-main-box  {
+			
+			background-color:#EEEEEE;
+			
+			.course-content ul.section {
+				margin:0.25em!important;
+			}
+			#region-main-wrap {color: var(--sat-085);}
+		
+			.activity{ 
+				padding: 0.75em 0em 0em 0em;
+				
+				&:hover{background-color:var(--sat-035);}
+				a{
+					font-weight:400;
+					&:hover{color: var(--sat-005);}
+				}
+				.contentafterlink{
+					margin-top:0em;
+					p{font-size: 0.75em;}
+				}
+				
+				
+				
+				
+			}
+			.modtype_label{
+					&:hover{background-color:#EEEEEE;}
+					}
+			}
+			
+		}
+	}
 }
+
