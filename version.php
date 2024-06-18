@@ -5,10 +5,10 @@
  */
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013010101;
+$plugin->version   = 2024060101;
 $plugin->component = 'theme_acmebanana';
 $plugin->requires  = 2010112400;
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release = 1.03;
+$plugin->maturity  = MATURITY_RC;
+$plugin->release = 2.00;
 
 ?>

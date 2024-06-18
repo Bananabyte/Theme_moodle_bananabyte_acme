@@ -60,7 +60,7 @@ $THEME->layouts = array(
     ),
     // Main course page
     'course' => array(
-        'file' => 'general.php',
+        'file' => 'course.php',
         'regions' => array('side-pre', 'side-post'),
         'defaultregion' => 'side-post',
         'options' => array('langmenu'=>true),
@@ -159,6 +159,7 @@ $THEME->hidefromselector = false;
 
 /** List of javascript files that need to included on each page */
 $THEME->javascripts = array(
-	'masonry'
+	''
 );
 $THEME->javascripts_footer = array();
+$THEME->csspostprocess = 'theme_acmebanana_process_css';
